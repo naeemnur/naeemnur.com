@@ -1,5 +1,9 @@
-# naeemnur.com
-Personal website
+## naeemnur.com
 
-Hello, I am Naeem.
-This is the repository of my personal website with blog.
+Code for my personal website + blog built with React
+
+### Uses
+
+- react-helmet
+- react-router-dom
+- react-snap
