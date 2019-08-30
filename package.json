@@ -6,6 +6,7 @@
     "github-markdown-css": "^3.0.1",
     "markdown-with-front-matter-loader": "^0.1.0",
     "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-ga": "^2.6.0",

@@ -8,7 +8,7 @@ class About extends Component {
         <Helmet>
           <title>About</title>
         </Helmet>
-        about
+        <h1>About</h1>
       </Fragment>
     );
   }

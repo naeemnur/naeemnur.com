@@ -7,8 +7,9 @@ class Projects extends Component {
       <Fragment>
         <Helmet>
           <title>Projects</title>
+          <meta name="description" content="Helmet application" />
         </Helmet>
-        Projects
+        <h1>Project</h1>
       </Fragment>
     );
   }

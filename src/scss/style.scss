@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 body {
   margin: 0;
@@ -11,7 +11,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+  width: 90%;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.colophon {
+  margin-top: 20px;
+}
+
+.nn_header {
+  background-color: $primary-text;
+  padding: 0.8em 0;
+}
+
+.nn_menu {
+  margin: 0;
+  padding: 0;
+}
+.nn_menuItem {
+  display: inline-block;
+  & a {
+    color: $primary-color;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-right: 20px;
+  }
+  &.naeem {
+    font-weight: bold;
+  }
 }
