@@ -19,6 +19,6 @@ Code for my personal website + blog built with React
 - `npm run build`
 - `npm run eject`
 
-#### Commands
+#### TODO
 
 - markdown powered blog
