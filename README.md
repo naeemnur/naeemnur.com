@@ -10,6 +10,7 @@ Code for my personal website + blog built with React
 - github-markdown-css
 - markdown-with-front-matter-loader
 - node-sass
+- react-gA
 
 #### Commands
 
