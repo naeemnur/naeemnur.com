@@ -1,6 +1,6 @@
 ## naeemnur.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/782122a0-5349-4898-a3b9-0d68f6944c34/deploy-status)](https://app.netlify.com/sites/naeem/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/782122a0-5349-4898-a3b9-0d68f6944c34/deploy-status)](https://app.netlify.com/sites/naeem/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Code for my personal website + blog built with React
 
