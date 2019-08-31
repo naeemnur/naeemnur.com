@@ -11,6 +11,7 @@ Code for my personal website + blog built with React
 - markdown-with-front-matter-loader
 - node-sass
 - react-ga
+- react-loading-skeleton
 
 #### Commands
 
