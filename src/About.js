@@ -21,7 +21,7 @@ class About extends Component {
     return (
       <Fragment>
         <Helmet>
-          <title>{pageTitle}</title>
+          <title>{ pageTitle }</title>
         </Helmet>
         <h1>{ loaded ? pageTitle  : <Skeleton />}</h1>
       </Fragment>

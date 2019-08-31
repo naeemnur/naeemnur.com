@@ -23,17 +23,17 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Router history={history}>
+        <Router history={ history }>
           <Navbar />
           <main className="container">
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
-              <Route component={NotFound} />
+              <Route exact path="/" component={ Home } />
+              <Route path="/about" component={ About } />
+              <Route path="/projects" component={ Projects } />
+              <Route component={ NotFound } />
             </Switch>
 
-            <footer className="colophon">Naeem Noor &copy;2010 - 2019</footer>
+            <footer className="colophon">naeemnur  &copy; 2010 - 2019 | <a target="_blank" href="https://github.com/naeemnur/naeemnur.com"> view source</a> </footer>
           </main>
         </Router>
       </Fragment>
