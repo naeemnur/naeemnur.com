@@ -11,6 +11,7 @@
     "react-dom": "^16.9.0",
     "react-ga": "^2.6.0",
     "react-helmet": "^5.2.1",
+    "react-loading-skeleton": "^1.1.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "react-snap": "^1.23.0"
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss-normalize": "^8.0.1"
   }
 }
