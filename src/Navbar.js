@@ -12,10 +12,10 @@ class Navbar extends Component {
                 <NavLink to="/">naeemnur</NavLink>
               </li>
               <li className="nn_menuItem">
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about/">About</NavLink>
               </li>
               <li className="nn_menuItem">
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/projects/">Projects</NavLink>
               </li>
             </ul>
           </nav>

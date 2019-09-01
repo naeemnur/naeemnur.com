@@ -3,15 +3,14 @@ import { Helmet } from "react-helmet";
 import Skeleton from "react-loading-skeleton";
 
 class About extends Component {
-
   state = {
     isLoading: false
-  }
+  };
 
   componentDidMount() {
-      setInterval(() => {
-          this.setState({isLoading:true})
-      }, 600);
+    setInterval(() => {
+      this.setState({ isLoading: true });
+    }, 600);
   }
 
   render() {
@@ -21,9 +20,9 @@ class About extends Component {
     return (
       <Fragment>
         <Helmet>
-          <title>{ pageTitle }</title>
+          <title>{pageTitle}</title>
         </Helmet>
-        <h1>{ loaded ? pageTitle  : <Skeleton />}</h1>
+        <h1>{loaded ? pageTitle : <Skeleton />}</h1>
       </Fragment>
     );
   }

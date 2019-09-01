@@ -23,17 +23,75 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Router history={ history }>
+        <Router history={history}>
           <Navbar />
           <main className="container">
             <Switch>
-              <Route exact path="/" component={ Home } />
-              <Route path="/about" component={ About } />
-              <Route path="/projects" component={ Projects } />
-              <Route component={ NotFound } />
+              <Route exact path="/" component={Home} />
+              <Route path="/about/" component={About} />
+              <Route path="/projects/" component={Projects} />
+              <Route component={NotFound} />
             </Switch>
 
-            <footer className="colophon">naeemnur  &copy; 2010 - 2019 | <a target="_blank" href="https://github.com/naeemnur/naeemnur.com"> view source</a> </footer>
+            <footer className="nn_colophon">
+              <p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/naeemol"
+                >
+                  Twitter
+                </a>{" "}
+                •{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://instagram.com/naeemnur/"
+                >
+                  Instagram
+                </a>{" "}
+                •{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/naeemnur/"
+                >
+                  Linkedin
+                </a>{" "}
+                •{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/naeemnur"
+                >
+                  Github
+                </a>{" "}
+                •{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://producthunt.com/@naeemol"
+                >
+                  PH
+                </a>{" "}
+                •{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:naeemnur@gmail.com"
+                >
+                  Mail
+                </a>
+              </p>
+              naeemnur &copy; 2019 •&nbsp;
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/naeemnur/naeemnur.com"
+              >
+                source code
+              </a>
+            </footer>
           </main>
         </Router>
       </Fragment>
