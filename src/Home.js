@@ -5,19 +5,24 @@ import { NavLink } from "react-router-dom";
 
 class Home extends Component {
   state = {
-    isLoading: false
+    isLoading: true,
   };
 
   componentDidMount() {
-    setInterval(() => {
-      this.setState({ isLoading: true });
+    this.interval = setInterval(() => {
+      this.setState({ isLoading: false });
     }, 600);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
 
   render() {
     const loaded = this.state.isLoading;
     const pageTitle = "Hi, I'm Naeem.";
-    const pageContent = `I’m a Web / Frontend developer, mostly working around WordPress, PHP, MySql. Currently focusing on JavaScript, React.js and JAMStack. I'm a Maker at heart, so I love taking a raw thought and building it to completion.`;
+    const pageContent = `I’m a Web / Frontend developer, mostly working around WordPress, PHP, MySQL. Currently focusing on JavaScript, React.js and JAMStack. I'm a Maker at heart, so I love taking a raw thought and building it to completion.`;
+    const projectHeading = "Featured Projects";
 
     return (
       <Fragment>
@@ -27,15 +32,54 @@ class Home extends Component {
         </Helmet>
         <div className="nn_hero">
           <SkeletonTheme color="#888" highlightColor="#999">
-            <h1>{loaded ? pageTitle : <Skeleton width={215} />}</h1>
-            <p>{loaded ? pageContent : <Skeleton count={3} />}</p>
+            <h1>{loaded ? <Skeleton width={175} /> : pageTitle}</h1>
+            <p>{loaded ? <Skeleton count={3} /> : pageContent}</p>
           </SkeletonTheme>
         </div>
+
         <div className="nn_featured">
-          <h3>Featured projects</h3>
-          <p>Projects that I've built</p>
-          <NavLink to="/projects/" strict>
-            view all
+          <h2>
+            {loaded ? <Skeleton width={175} height={25} /> : projectHeading}
+          </h2>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nn_project nn_gcemetery"
+            href="https://gcemetery.co"
+          >
+            <h4 className="nn_project-title">The Google Cemetery</h4>
+            <p className="nn_project-desc">
+              Complete list of dead Google products / services, when and why
+              they died.
+            </p>
+            <div className="nn_project-meta">
+              <span className="nn_project-url">gcemetery.co</span>
+              <span title="Date launched" className="nn_project-date">
+                November 2018
+              </span>
+            </div>
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nn_project nn_acquiredby"
+            href="https://acquiredby.co"
+          >
+            <h4 className="nn_project-title">AcquiredBy</h4>
+            <p className="nn_project-desc">
+              AcquiredBy is a growing database of tech industry acquisitions.
+            </p>
+            <div className="nn_project-meta">
+              <span className="nn_project-url">acquiredby.co</span>
+              <span title="Date launched" className="nn_project-date">
+                April 2017
+              </span>
+            </div>
+          </a>
+
+          <NavLink className="nn_view-projects" to="/projects/" strict>
+            View all projects &rarr;
           </NavLink>
         </div>
       </Fragment>

@@ -1,0 +1,254 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont,
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+[hidden] {
+  display: none;
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  color: #404040;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: $primary-background;
+  font-size: 1rem;
+}
+
+a {
+  color: #0366ee;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #0246a2;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0 0 0.5em;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+h1,
+.h1 {
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+
+  @media (min-width: $bp-medium) {
+    font-size: 1.75em;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.3125em;
+}
+
+h3,
+.h3 {
+  font-size: 1.1875em;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  font-size: 1em;
+}
+
+.container {
+  @extend .clearfix;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $container-max-width;
+  width: $container-width;
+}
+
+.nn_colophon {
+  margin: 3em 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.42);
+  & a {
+    color: $primary-text;
+    padding: 0 5px;
+  }
+  & p {
+    margin-bottom: 0;
+  }
+}
+
+.nn_header {
+  background-color: $primary-text;
+  padding: 0.8em 0;
+  margin-bottom: 1.5em;
+}
+
+.nn_hero {
+  background: rgba(0, 0, 0, 0.035);
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 3em;
+
+  & h1 {
+    margin: 0;
+  }
+  & p:last-child {
+    margin: 0;
+    padding-bottom: 0;
+  }
+}
+
+.nn_menu {
+  margin: 0;
+  padding: 0;
+}
+.nn_menuItem {
+  display: inline-block;
+  & a {
+    color: $primary-color;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-right: 20px;
+  }
+  &.naeem {
+    font-weight: bold;
+  }
+}
+
+.nn_featured {
+  & h2 {
+    @extend .nn_page-title;
+    margin-bottom: 1.5em;
+  }
+}
+
+.nn_page-title {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: 26px;
+}
+
+.nn_project {
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+
+a.nn_project {
+  display: block;
+  text-decoration: none;
+}
+
+.nn_project-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.nn_project.nn_gcemetery {
+  background: #eb4132;
+  color: #fff;
+}
+
+.nn_project.nn_acquiredby {
+  background: #40aaa1;
+  color: #fff;
+}
+
+.nn_project.nn_faang {
+  background: #4285f4;
+  color: #fff;
+}
+
+.nn_project.nn_exchainged {
+  background: #383e47;
+  color: #fff;
+}
+
+.nn_project.nn_urepublic {
+  background: #ecf0f6;
+  color: #6e7a8c;
+}
+
+.nn_project.nn_workingtime {
+  background: #ae112b;
+  color: #fff;
+}
+
+.nn_project-meta {
+  font-size: 15px;
+}
+
+.nn_project-meta span {
+  margin-right: 15px;
+}
+
+.nn_view-projects {
+  -webkit-appearance: none;
+  border: 1px solid #d7d7d7;
+  display: block;
+  border-radius: 4px;
+  color: #6a6962;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-size: 1rem;
+  text-transform: none;
+  padding: 0.75rem 1.25rem;
+  margin: 2em auto 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  max-width: 200px;
+  &:hover {
+    color: #f9f9f3;
+    background: $primary-text;
+    text-decoration: none;
+    border-color: $primary-text;
+  }
+}

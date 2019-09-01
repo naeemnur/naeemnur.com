@@ -1,4 +1,50 @@
+
+//==============================================================================
+// Colors
+//==============================================================================
+
 $primary-color: #f9f9f3;
 $primary-background: #ffffff;
 $primary-text: #494840;
 $primary-link: #fff;
+
+// Breakpoints
+$bp-xsmall: 20em;
+$bp-small: 30em;
+$bp-medium: 40em;
+$bp-large: 60em;
+$bp-xlarge: 80em;
+
+
+// Sizing
+$container-width: 90%;
+$container-max-width: 50em;
+
+
+// Grid
+$grid-margins: 1.4%;
+$grid-sizes: (
+	// Grid width options
+	// Add/remove grid's as needed
+	// $name: $width
+	// $name - {string} class suffix
+	// $width - {string} width of the grid
+	fourth: 25%,
+	third: 33.33333333333%,
+	half: 50%,
+	two-thirds: 66.666666666667%,
+	three-fourths: 75%,
+	full: 100%
+);
+$grid-breakpoints: (
+	// Breakpoints at which to activate grid
+	// Add/remove breakpoints as needed
+	// ($breakpoint, $prefix-class, $include-offsets)
+	// $breakpoint - {string|variable} the breakpoint
+	// $prefix-class - {string|optional} class to be used with `.row` to activate grid
+	// $include-offsets - {boolean} if true, include offset classes at this breakpoint
+	($bp-xsmall, ".row-start-xsmall", false),
+	($bp-small, ".row-start-small", false),
+	($bp-medium, null, true),
+);
+$grid-wrap: true;
