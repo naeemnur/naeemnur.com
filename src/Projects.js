@@ -27,7 +27,9 @@ class Projects extends Component {
           <title>{pageTitle} - Naeem Noor</title>
           <meta name="description" content="Helmet application" />
         </Helmet>
-        <h1 className="nn_page-title">{loaded ? <Skeleton /> : pageTitle}</h1>
+        <h1 className="nn_page-title">
+          {loaded ? <Skeleton width={95} /> : pageTitle}
+        </h1>
         <div className="nn_featured">
           <a
             target="_blank"

@@ -26,7 +26,6 @@ Code for my personal website + blog built with React
 
 #### TODO
 
-- add about page content
 - implement loading skeleton
 - dark mode
 - markdown powered blog

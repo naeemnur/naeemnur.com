@@ -160,11 +160,11 @@ h6,
   & h2 {
     @extend .nn_page-title;
     margin-bottom: 1.5em;
+    text-align: center;
   }
 }
 
 .nn_page-title {
-  text-align: center;
   font-weight: 400;
   letter-spacing: 0px;
   font-size: 26px;
@@ -251,4 +251,9 @@ a.nn_project {
     text-decoration: none;
     border-color: $primary-text;
   }
+}
+
+.nayme-photo {
+  float: right;
+  padding-left: 5px;
 }

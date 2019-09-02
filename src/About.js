@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
 import Skeleton from "react-loading-skeleton";
+
 import nayme from "./nayme.png";
 
 class About extends Component {
@@ -21,42 +22,73 @@ class About extends Component {
   render() {
     const loaded = this.state.isLoading;
     const pageTitle = "About";
+    const pageContent = `Hi 👋, my name is Naeem. I began my adventure with web development
+    when I was just 12. I built sites with GeoCities before moving into
+    coding layouts in tables. Fast forward a few years, and I'm still
+    meddling about in HTML, CSS and JavaScript, reading and launching out
+    of the box websites in my free time.`;
+    const pageContentCont = `My key interests lie in front-end development, performance, and
+    JavaScript applications (although I'm still learning)`;
 
     return (
       <Fragment>
         <Helmet>
           <title>{pageTitle} - Naeem Noor</title>
         </Helmet>
-        <h1 className="nn_page-title">{loaded ? <Skeleton /> : pageTitle}</h1>
+        <h1 className="nn_page-title">
+          {loaded ? <Skeleton width={75} /> : pageTitle}
+        </h1>
 
-        <img src={nayme} className="App-logo" alt="logo" />
-        <p>
-          Hi, my name is Naeem. I’m a self-taught web developer, building
-          well-made websites with WordPress. I first used the internet in 2001
-          and built my first website within weeks and finally started to work as
-          a professional web developer in 2008.
-        </p>
+        <div className="nayme-photo">
+          {loaded ? (
+            <Skeleton circle={true} height={251} width={250} />
+          ) : (
+            <img src={nayme} alt="Naeem in flesh" />
+          )}
+        </div>
+        <p>{loaded ? <Skeleton count={5} width={536} /> : pageContent}</p>
+        <p>{loaded ? <Skeleton count={2} width={464} /> : pageContentCont}</p>
 
-        <h2>Skillset</h2>
-        <div>
-          <strong>Core</strong>: JavaScript, CSS3, HTML5, PHP, MySQL, Mobile and
-          Responsive Design
-        </div>
-        <div>
-          <strong>Libraries</strong>: React.js, Gatsby, Express, jQuery,
-          Bootstrap and Tailwind CSS
-        </div>
-        <div>
-          <strong>CMS</strong>: WordPress Themeing / Plugins
-        </div>
+        <h2>{loaded ? <Skeleton width={160} /> : "Skills & Expertise"}</h2>
+        <ul>
+          <li>
+            <strong>Core</strong>: HTML5, CSS3, JavaScript, RWD PHP and MySQL
+          </li>
+          <li>
+            <strong>Libraries</strong>: React.js, jQuery and Tailwind CSS
+          </li>
+          <li>
+            <strong>CMS</strong>: WordPress Themeing / Plugins
+          </li>
+        </ul>
         <h2>Currently Using</h2>
         <ul>
-          <li>Computer: MacBook Pro 2017 13'</li>
-          <li>Hosting: Netlify (personal site), Dreamhost (side projects)</li>
-          <li>Editor: Visual Studio Code</li>
-          <li>Code Syntax Theme: Ayu Mirage</li>
-          <li>Notes: SimpleNote</li>
+          <li>
+            <strong>Computer</strong>: MacBook Pro 2017 13'
+          </li>
+          <li>
+            <strong>Editor</strong>: Visual Studio Code
+          </li>
+          <li>
+            <strong>Font</strong>: PragmataPro
+          </li>
+          <li>
+            <strong>Code Syntax Theme</strong>: Ayu Mirage
+          </li>
+          <li>
+            <strong>Notes</strong>: Notes (Mac)
+          </li>
+          <li>
+            <strong>Todo</strong>: Wunderlist
+          </li>
         </ul>
+        <p>
+          {loaded ? (
+            <Skeleton width={550} />
+          ) : (
+            "This website was built using React, Sass and other tools. Hosted on Netlify."
+          )}
+        </p>
       </Fragment>
     );
   }
