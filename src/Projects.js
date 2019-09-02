@@ -24,7 +24,7 @@ class Projects extends Component {
     return (
       <Fragment>
         <Helmet>
-          <title>{pageTitle}</title>
+          <title>{pageTitle} - Naeem Noor</title>
           <meta name="description" content="Helmet application" />
         </Helmet>
         <h1 className="nn_page-title">{loaded ? <Skeleton /> : pageTitle}</h1>

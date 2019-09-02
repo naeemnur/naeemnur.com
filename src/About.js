@@ -25,7 +25,7 @@ class About extends Component {
     return (
       <Fragment>
         <Helmet>
-          <title>{pageTitle}</title>
+          <title>{pageTitle} - Naeem Noor</title>
         </Helmet>
         <h1 className="nn_page-title">{loaded ? <Skeleton /> : pageTitle}</h1>
 

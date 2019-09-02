@@ -27,8 +27,8 @@ class Home extends Component {
     return (
       <Fragment>
         <Helmet>
-          <title>WordPress Developer Bahrain - Naeem Noor</title>
-          <meta name="description" content="Helmet application" />
+          <title>Naeem Noor - Web / Frontend Developer Bahrain</title>
+          <meta name="description" content="{ pageContent }" />
         </Helmet>
         <div className="nn_hero">
           <SkeletonTheme color="#888" highlightColor="#999">

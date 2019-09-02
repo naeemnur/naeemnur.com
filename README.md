@@ -28,6 +28,5 @@ Code for my personal website + blog built with React
 
 - add about page content
 - implement loading skeleton
-- update favicon
 - dark mode
 - markdown powered blog
