@@ -21,7 +21,7 @@ class Home extends Component {
   render() {
     const loaded = this.state.isLoading;
     const pageTitle = "Hi, I'm Naeem.";
-    const pageContent = `I’m a Web / Frontend developer, mostly working around WordPress, PHP, MySQL. Currently focusing on JavaScript, React.js and JAMStack. I'm a Maker at heart, so I love taking a raw thought and building it to completion.`;
+    const pageContent = `I’m a Web / Frontend developer. I mostly work around WordPress, PHP, MySQL. I'm currently focusing on JavaScript, React.js and JAMStack. I'm a creator at heart, so I enjoy taking a raw thought and building it to completion.`;
     const projectHeading = "Featured Projects";
 
     return (
