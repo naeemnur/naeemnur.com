@@ -1,25 +1,10 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { NavLink } from "react-router-dom";
 
 class Home extends Component {
-  state = {
-    isLoading: true,
-  };
-
-  componentDidMount() {
-    this.interval = setInterval(() => {
-      this.setState({ isLoading: false });
-    }, 600);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval);
-  }
 
   render() {
-    const loaded = this.state.isLoading;
     const pageTitle = "Hi, I'm Naeem.";
     const pageContent = `I’m a self-taught Web / Frontend developer. I mostly work around WordPress, PHP, MySQL. I'm currently focusing on JavaScript, React.js and JAMStack. I'm a creator at heart, so I enjoy taking a raw thought and building it to completion.`;
     const projectHeading = "Selected Projects";
@@ -28,18 +13,16 @@ class Home extends Component {
       <Fragment>
         <Helmet>
           <title>Naeem Noor - Web / Frontend Developer Bahrain</title>
-          <meta name="description" content="{ pageContent }" />
+          <meta name="description" content="{pageContent }" />
         </Helmet>
         <div className="nn_hero">
-          <SkeletonTheme color="#888" highlightColor="#999">
-            <h1>{loaded ? <Skeleton width={175} /> : pageTitle}</h1>
-            <p>{loaded ? <Skeleton count={3} /> : pageContent}</p>
-          </SkeletonTheme>
+            <h1>{pageTitle}</h1>
+            <p>{pageContent}</p>
         </div>
 
         <div className="nn_featured">
           <h2>
-            {loaded ? <Skeleton width={175} height={25} /> : projectHeading}
+            {projectHeading}
           </h2>
           <a
             target="_blank"

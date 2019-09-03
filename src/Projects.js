@@ -1,24 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
-import Skeleton from "react-loading-skeleton";
 
 class Projects extends Component {
-  state = {
-    isLoading: true,
-  };
-
-  componentDidMount() {
-    this.interval = setInterval(() => {
-      this.setState({ isLoading: false });
-    }, 600);
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.interval);
-  }
-
+  
   render() {
-    const loaded = this.state.isLoading;
     const pageTitle = "Projects";
 
     return (
@@ -28,7 +13,7 @@ class Projects extends Component {
           <meta name="description" content="Helmet application" />
         </Helmet>
         <h1 className="nn_page-title">
-          {loaded ? <Skeleton width={95} /> : pageTitle}
+          {pageTitle}
         </h1>
         <div className="nn_featured">
           <a
