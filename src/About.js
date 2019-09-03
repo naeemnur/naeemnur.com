@@ -33,13 +33,13 @@ class About extends Component {
         <h2>Skills & Expertise</h2>
         <ul>
           <li>
-            <strong>Core</strong>: HTML5, CSS3, JavaScript, RWD PHP and MySQL
+            <strong>Core</strong>: HTML5, CSS3, JavaScript, RWD, PHP and MySQL
           </li>
           <li>
             <strong>Libraries</strong>: React.js, jQuery and Tailwind CSS
           </li>
           <li>
-            <strong>CMS</strong>: WordPress Themeing / Plugins
+            <strong>CMS</strong>: WordPress (Themes / Plugins)
           </li>
         </ul>
         <h2>Currently Using</h2>

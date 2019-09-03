@@ -11,7 +11,6 @@ Code for my personal website + blog built with React
 - react-helmet
 - react-router-dom
 - react-snap
-- react-loading-skeleton
 - react-ga
 - node-sass
 - github-markdown-css
