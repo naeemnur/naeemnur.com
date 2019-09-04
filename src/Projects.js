@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
 
 class Projects extends Component {
-  
   render() {
     const pageTitle = "Projects";
 
@@ -12,9 +11,7 @@ class Projects extends Component {
           <title>{pageTitle} - Naeem Noor</title>
           <meta name="description" content="Helmet application" />
         </Helmet>
-        <h1 className="nn_page-title">
-          {pageTitle}
-        </h1>
+        <h1 className="nn_page-title">{pageTitle}</h1>
         <div className="nn_featured">
           <a
             target="_blank"
@@ -96,7 +93,7 @@ class Projects extends Component {
           >
             <h4 className="nn_project-title">Unicorn Republic</h4>
             <p className="nn_project-desc">
-              Curated list of startuos that evolved into $1 Billion+
+              Curated list of startups that evolved into $1 Billion+
               corporations
             </p>
             <div className="nn_project-meta">
