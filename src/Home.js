@@ -23,22 +23,22 @@ class Home extends Component {
         <div className="nn_featured">
           <h2>{projectHeading}</h2>
           <Project
-            url="https://gcemetery.co/"
-            title="The Google Cemetery"
+            date="November 2018"
             desc="Complete list of dead Google products / services, when and why
             they died."
             domain="gcmetery.co"
-            date="November 2018"
-            class="nn_project nn_gcemetery"
+            pClass="nn_project nn_gcemetery"
+            title="The Google Cemetery"
+            url="https://gcemetery.co/"
           />
 
           <Project
-            url="https://acquiredby.co/"
-            title="AcquiredBy"
-            desc="AcquiredBy is a growing database of tech industry acquisitions."
-            domain="acquiredby.co"
             date="June 2017"
-            class="nn_project nn_acquiredby"
+            desc="AcquiredBy is a growing database of tech industry acquisitions"
+            domain="acquiredby.co"
+            pClass="nn_project nn_acquiredby"
+            title="AcquiredBy"
+            url="https://acquiredby.co/"
           />
 
           <NavLink className="nn_view-projects" to="/projects/" strict>

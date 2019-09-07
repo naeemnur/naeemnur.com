@@ -1,34 +1,27 @@
 import React, { Component, Fragment } from "react";
-import PropTypes from "prop-types";
+import { string } from "prop-types";
 import { Helmet } from "react-helmet";
 
-export const Project = props => {
-  return (
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      className={props.class}
-      href={props.url}
-    >
-      <h4 className="nn_project-title">{props.title}</h4>
-      <p className="nn_project-desc">{props.desc}</p>
-      <div className="nn_project-meta">
-        <span className="nn_project-url">{props.domain}</span>
-        <span title="Date launched" className="nn_project-date">
-          {props.date}
-        </span>
-      </div>
-    </a>
-  );
-};
+export const Project = ({ date, desc, domain, pClass, title, url }) => (
+  <a target="_blank" rel="noopener noreferrer" className={pClass} href={url}>
+    <h4 className="nn_project-title">{title}</h4>
+    <p className="nn_project-desc">{desc}</p>
+    <div className="nn_project-meta">
+      <span className="nn_project-url">{domain}</span>
+      <span title="Date launched" className="nn_project-date">
+        {date}
+      </span>
+    </div>
+  </a>
+);
 
 Project.propTypes = {
-  title: PropTypes.string,
-  desc: PropTypes.string,
-  domain: PropTypes.string,
-  date: PropTypes.string,
-  url: PropTypes.string,
-  class: PropTypes.string,
+  date: string,
+  desc: string,
+  domain: string,
+  pClass: string,
+  title: string,
+  url: string,
 };
 
 class Projects extends Component {
@@ -44,58 +37,58 @@ class Projects extends Component {
         <h1 className="nn_page-title">{pageTitle}</h1>
         <div className="nn_featured">
           <Project
-            url="https://gcemetery.co/"
-            title="The Google Cemetery"
+            date="November 2018"
             desc="Complete list of dead Google products / services, when and why
             they died."
             domain="gcmetery.co"
-            date="November 2018"
-            class="nn_project nn_gcemetery"
+            pClass="nn_project nn_gcemetery"
+            title="The Google Cemetery"
+            url="https://gcemetery.co/"
           />
 
           <Project
-            url="https://acquiredby.co/"
-            title="AcquiredBy"
+            date="June 2017"
             desc="AcquiredBy is a growing database of tech industry acquisitions"
             domain="acquiredby.co"
-            date="June 2017"
-            class="nn_project nn_acquiredby"
+            pClass="nn_project nn_acquiredby"
+            title="AcquiredBy"
+            url="https://acquiredby.co/"
           />
 
           <Project
-            url="https://exchainged.co/"
-            title="ExChainged"
+            date="February 2019"
             desc="A hub for token rates, tokens, and exchanges that support them"
             domain="exchainged.co"
-            date="February 2019"
-            class="nn_project nn_exchainged"
+            pClass="nn_project nn_exchainged"
+            title="ExChainged"
+            url="https://exchainged.co/"
           />
 
           <Project
-            url="https://faangwat.ch/"
-            title="FAANGWatch"
+            date="March 2019"
             desc="End of day stock prices of key tech giants"
             domain="faangwat.ch"
-            date="March 2019"
-            class="nn_project nn_faang"
+            pClass="nn_project nn_faang"
+            title="FAANGWatch"
+            url="https://faangwat.ch/"
           />
 
           <Project
-            url="https://unicornrepublic.co/"
-            title="Unicorn Republic"
+            date="February 2019"
             desc="Curated list of startups that evolved into $1 Billion+ corporations"
             domain="unicornrepublic.co"
-            date="February 2019"
-            class="nn_project nn_urepublic"
+            pClass="nn_project nn_urepublic"
+            title="Unicorn Republic"
+            url="https://unicornrepublic.co/"
           />
 
           <Project
-            url="https://workingti.me/"
-            title="Working Time"
+            date="January 2019"
             desc="Working Time displays the average working hours per week around the globe"
             domain="workingti.me"
-            date="January 2019"
-            class="nn_project nn_workingtime"
+            pClass="nn_project nn_workingtime"
+            title="Working Time"
+            url="https://workingti.me/"
           />
         </div>
       </Fragment>

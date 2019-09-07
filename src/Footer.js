@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  let date = new Date();
+  const date = new Date();
 
   return (
     <footer className="nn_colophon">
