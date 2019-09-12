@@ -27,4 +27,4 @@ Code for my personal website + blog built with React
 
 - fix responsive issues
 - dark mode
-- markdown powered blog
+- fix blog styling...
