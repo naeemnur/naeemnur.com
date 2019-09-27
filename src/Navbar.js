@@ -14,9 +14,9 @@ class Navbar extends Component {
               <li className="nn_menuItem">
                 <NavLink to="/about/">About</NavLink>
               </li>
-              {/* <li className="nn_menuItem">
+              <li className="nn_menuItem">
                 <NavLink to="/blog/">Blog</NavLink>
-              </li> */}
+              </li>
               <li className="nn_menuItem">
                 <NavLink to="/projects/">Projects</NavLink>
               </li>
