@@ -70,6 +70,7 @@ h6 {
 h1,
 .h1 {
   font-size: 1.5em;
+  margin-bottom: 0;
   padding-bottom: 0.5em;
 
   @media (min-width: $bp-medium) {
