@@ -37,6 +37,15 @@ class Projects extends Component {
         <h1 className="nn_page-title">{pageTitle}</h1>
         <div className="nn_featured">
           <Project
+            date="October 2019"
+            desc="Most used repositories on Github"
+            domain="usedby.dev"
+            pClass="nn_project nn_usedby"
+            title="Usedby"
+            url="https://usedby.dev/"
+          />
+
+          <Project
             date="November 2018"
             desc="Complete list of dead Google products / services, when and why
             they died."
