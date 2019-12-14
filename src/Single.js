@@ -30,12 +30,14 @@ const Single = ({ match }) => {
       </Helmet>
       <div className="container">
         <h1 className="nn_page-title">{title}</h1>
-        <span>{dated}</span>
+        <span className="nn_page-date">{dated}</span>
         <div
-          className="body"
+          className="nn_page-body"
           dangerouslySetInnerHTML={{ __html: __content }}
         ></div>
-        <NavLink to={"/blog/"}>« Back</NavLink>
+        <NavLink className="nn_page-back" to={"/blog/"}>
+          « Back
+        </NavLink>
       </div>
     </Fragment>
   );

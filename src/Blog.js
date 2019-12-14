@@ -12,7 +12,7 @@ const Blog = () => (
     </Helmet>
     <div className="container">
       <h1 className="nn_page-title">{pageTitle}</h1>
-      <ul>
+      <ul className="nn_blog-list">
         {[...posts()].map(post => {
           const url = post[0];
           const { title } = post[1];

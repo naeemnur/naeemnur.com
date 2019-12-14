@@ -9,7 +9,7 @@ In this post I will show you how you can enable or disable payment gateways base
 
 **Enable/Disable Payment Gateway with specific User ID in WooCommerce**
 
-[php collapse="false"]
+<pre>
 function cod_admin_only( $gateways ) {
   global $current_user;
 $user_ID = $current_user->ID; // get current user ID
@@ -23,4 +23,4 @@ unset( \$gateways['paypal'] ); // disable paypal
 return \$gateways;
 }
 add_filter( 'woocommerce_available_payment_gateways', 'cod_admin_only' );
-[/php]
+</pre>

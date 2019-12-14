@@ -20,6 +20,9 @@ class Home extends Component {
           <div className="container">
             <h1>{pageTitle}</h1>
             <p>{pageContent}</p>
+            <NavLink className="nn_about-nayme" to="/about/" strict>
+              more about me &rarr;
+            </NavLink>
           </div>
         </div>
 

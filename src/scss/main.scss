@@ -97,6 +97,70 @@ h6,
   font-size: 1em;
 }
 
+blockquote {
+  font-style: italic;
+  border-left: 3px solid #eee;
+  margin: 0 0 1.5625em;
+  color: #555;
+  padding-left: 0.8421052632em;
+  padding-right: 0.8421052632em;
+}
+
+blockquote cite {
+  color: #808080;
+  font-size: 0.8421052632em;
+  padding-top: 1em;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 0.875em;
+}
+
+code {
+  background-color: #f7f7f7;
+  color: #dd1144;
+  padding: 0.25em;
+  word-wrap: break-word;
+}
+
+pre {
+  background-color: #f4f4f4;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 1.5625em;
+  overflow: auto;
+  padding: 0.8125em;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+pre code {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font-size: 1em;
+  padding: 0;
+}
+
 .container {
   @extend .clearfix;
   margin-left: auto;
@@ -159,7 +223,6 @@ h6,
   & h2 {
     @extend .nn_page-title;
     margin-bottom: 1.5em;
-    text-align: center;
   }
 }
 
@@ -172,7 +235,7 @@ h6,
 
 .nn_project {
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-bottom: 1.5em;
   background: #eee;
 }
@@ -247,7 +310,7 @@ a.nn_project {
   -webkit-appearance: none;
   border: 1px solid #d7d7d7;
   display: block;
-  border-radius: 4px;
+  border-radius: 2px;
   color: #6a6962;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
@@ -273,4 +336,33 @@ a.nn_project {
 .nayme-photo {
   float: right;
   padding-left: 5px;
+}
+
+.nn_about-nayme {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nn_blog-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nn_blog-list li {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.5em;
+}
+
+.nn_blog-list li a,
+.nn_page-date,
+.nn_page-back {
+  @extend .nn_about-nayme;
+  color: #222;
+}
+
+.nn_page-body {
+  margin-top: 20px;
 }
