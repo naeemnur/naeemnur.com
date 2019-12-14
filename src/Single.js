@@ -28,13 +28,15 @@ const Single = ({ match }) => {
       <Helmet>
         <title>{title} - Blog - Naeem Noor</title>
       </Helmet>
-      <h1>{title}</h1>
-      <span>{dated}</span>
-      <div
-        className="body"
-        dangerouslySetInnerHTML={{ __html: __content }}
-      ></div>
-      <NavLink to={"/blog/"}>« Back</NavLink>
+      <div className="container">
+        <h1 className="nn_page-title">{title}</h1>
+        <span>{dated}</span>
+        <div
+          className="body"
+          dangerouslySetInnerHTML={{ __html: __content }}
+        ></div>
+        <NavLink to={"/blog/"}>« Back</NavLink>
+      </div>
     </Fragment>
   );
 };

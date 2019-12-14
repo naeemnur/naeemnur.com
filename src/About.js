@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 import nayme from "./nayme.png";
 
 class About extends Component {
- 
   render() {
     const pageTitle = "About";
     const pageContent = `Hi 👋, my name is Naeem. I began my adventure with web development
@@ -20,52 +19,52 @@ class About extends Component {
         <Helmet>
           <title>{pageTitle} - Naeem Noor</title>
         </Helmet>
-        <h1 className="nn_page-title">
-          {pageTitle}
-        </h1>
-
-        <div className="nayme-photo">
+        <div className="container">
+          <h1 className="nn_page-title">{pageTitle}</h1>
+          <div className="nayme-photo">
             <img src={nayme} alt="Naeem in flesh" />
-        </div>
-        <p>{pageContent}</p>
-        <p>{pageContentCont}</p>
+          </div>
+          <p>{pageContent}</p>
+          <p>{pageContentCont}</p>
 
-        <h2>Skills & Expertise</h2>
-        <ul>
-          <li>
-            <strong>Core</strong>: HTML5, CSS3, JavaScript, RWD, PHP and MySQL
-          </li>
-          <li>
-            <strong>Libraries</strong>: React.js, jQuery and Tailwind CSS
-          </li>
-          <li>
-            <strong>CMS</strong>: WordPress (Themes / Plugins)
-          </li>
-        </ul>
-        <h2>Currently Using</h2>
-        <ul>
-          <li>
-            <strong>Computer</strong>: MacBook Pro 2017 13'
-          </li>
-          <li>
-            <strong>Editor</strong>: Visual Studio Code
-          </li>
-          <li>
-            <strong>Font</strong>: PragmataPro
-          </li>
-          <li>
-            <strong>Code Syntax Theme</strong>: Ayu Mirage
-          </li>
-          <li>
-            <strong>Notes</strong>: Notes (Mac)
-          </li>
-          <li>
-            <strong>Todo</strong>: Wunderlist
-          </li>
-        </ul>
-        <p>
-          This website was built using React, Sass and other tools. Hosted on Netlify.
-        </p>
+          <h2>Skills & Expertise</h2>
+          <ul>
+            <li>
+              <strong>Core</strong>: HTML5, CSS3, JavaScript, RWD, PHP and MySQL
+            </li>
+            <li>
+              <strong>Libraries</strong>: React.js, jQuery and Tailwind CSS
+            </li>
+            <li>
+              <strong>CMS</strong>: WordPress (Themes / Plugins)
+            </li>
+          </ul>
+          <h2>Currently Using</h2>
+          <ul>
+            <li>
+              <strong>Computer</strong>: MacBook Pro 2017 13'
+            </li>
+            <li>
+              <strong>Editor</strong>: Visual Studio Code
+            </li>
+            <li>
+              <strong>Font</strong>: PragmataPro
+            </li>
+            <li>
+              <strong>Code Syntax Theme</strong>: Ayu Mirage
+            </li>
+            <li>
+              <strong>Notes</strong>: Notes (Mac)
+            </li>
+            <li>
+              <strong>Todo</strong>: Wunderlist
+            </li>
+          </ul>
+          <p>
+            This website was built using React, Sass and other tools. Hosted
+            on Netlify.
+          </p>
+        </div>
       </Fragment>
     );
   }

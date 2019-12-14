@@ -28,17 +28,15 @@ class App extends Component {
     return (
       <Router history={history}>
         <Navbar />
-        <main className="container">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about/" component={About} />
-            <Route path="/blog/" component={Blog} />
-            <Route path="/post/:title/" component={Single} />
-            <Route path="/projects/" component={Projects} />
-            <Route component={NotFound} />
-          </Switch>
-          <Footer />
-        </main>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about/" component={About} />
+          <Route path="/blog/" component={Blog} />
+          <Route path="/post/:title/" component={Single} />
+          <Route path="/projects/" component={Projects} />
+          <Route component={NotFound} />
+        </Switch>
+        <Footer />
       </Router>
     );
   }
