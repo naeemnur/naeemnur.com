@@ -21,11 +21,12 @@ html {
   clear: both;
 }
 
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+
 body {
   color: #404040;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+
   background: $primary-background;
   font-size: 1rem;
 }
