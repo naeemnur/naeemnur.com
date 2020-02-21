@@ -13,7 +13,7 @@ class Home extends Component {
       <Fragment>
         <Helmet>
           <title>Naeem Noor - Web / Frontend Developer Bahrain</title>
-          <meta name="description" content="{pageContent }" />
+          <meta name="description" content={pageContent} />
         </Helmet>
 
         <div className="nn_hero">
