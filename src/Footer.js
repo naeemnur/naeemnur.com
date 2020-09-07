@@ -5,16 +5,11 @@ const Footer = () => {
 
   return (
     <footer className="nn_colophon">
-      <p>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="mailto:naeemnur@gmail.com"
-        >
-          Email me
-        </a>
-      </p>
-      naeemnur &copy; {date.getFullYear()}
+      <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="mailto:naeemnur@gmail.com"
+    >naeemnur</a> &copy; {date.getFullYear()}
     </footer>
   );
 };
