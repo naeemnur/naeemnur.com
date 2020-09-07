@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
 
-import nayme from "./nayme.png";
-
 class About extends Component {
   render() {
     const pageTitle = "About";
