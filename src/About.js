@@ -21,9 +21,6 @@ class About extends Component {
         </Helmet>
         <div className="container">
           <h1 className="nn_page-title">{pageTitle}</h1>
-          <div className="nayme-photo">
-            <img src={nayme} alt="Naeem in flesh" />
-          </div>
           <p>{pageContent}</p>
           <p>{pageContentCont}</p>
 
