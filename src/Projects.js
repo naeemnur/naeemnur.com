@@ -37,10 +37,19 @@ class Projects extends Component {
         <div className="container">
           <h1 className="nn_page-title">{pageTitle}</h1>
           <div className="nn_featured">
+          <Project
+            date="October 2020"
+            desc="Travel thru time and explore your favorite tech products, then & now."
+            domain="techrewind.co"
+            pClass="nn_project nn_techrewind"
+            title="TechRewind"
+            url="https://techrewind.co/"
+          />
+
             <Project
               date="October 2019"
               desc="Most used repositories on Github"
-              domain="usedby.dev"
+              domain="usedby.dev (defunct)"
               pClass="nn_project nn_usedby"
               title="Usedby"
               url="https://usedby.dev/"
@@ -68,7 +77,7 @@ class Projects extends Component {
             <Project
               date="February 2019"
               desc="A hub for token rates, tokens, and exchanges that support them"
-              domain="exchainged.co"
+              domain="exchainged.co (defunct)"
               pClass="nn_project nn_exchainged"
               title="ExChainged"
               url="https://exchainged.co/"
