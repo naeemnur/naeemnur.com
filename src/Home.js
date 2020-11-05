@@ -29,6 +29,16 @@ class Home extends Component {
         <div className="container">
           <div className="nn_featured">
             <h2>{projectHeading}</h2>
+
+            <Project
+            date="October 2020"
+            desc="Travel thru time and explore your favorite tech products, then & now."
+            domain="techrewind.co"
+            pClass="nn_project nn_techrewind"
+            title="TechRewind"
+            url="https://techrewind.co/"
+          />
+
             <Project
               date="November 2018"
               desc="Complete list of dead Google products / services, when and why
