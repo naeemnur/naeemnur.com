@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import { string } from "prop-types";
 import { Helmet } from "react-helmet";
 
-export const Project = ({ date, desc, domain, pClass, title, url }) => (
+export const Project = ({ date, desc, domain, pClass, title, url, status }) => (
   <a target="_blank" rel="noopener noreferrer" className={pClass} href={url}>
     <h4 className="nn_project-title">{title}</h4>
     <p className="nn_project-desc">{desc}</p>
@@ -11,12 +11,16 @@ export const Project = ({ date, desc, domain, pClass, title, url }) => (
       <span title="Date launched" className="nn_project-date">
         {date}
       </span>
+      <span title="Status" className="nn_project-status">
+        {status}
+      </span>
     </div>
   </a>
 );
 
 Project.propTypes = {
   date: string,
+  status: string,
   desc: string,
   domain: string,
   pClass: string,
@@ -37,6 +41,27 @@ class Projects extends Component {
         <div className="container">
           <h1 className="nn_page-title">{pageTitle}</h1>
           <div className="nn_featured">
+
+          <Project
+            date="December 2020"
+            desc="Free privacy policy hosting for mobile app developers (iOS & Android)"
+            domain="policytrail.com"
+            pClass="nn_project nn_ptrail"
+            title="PolicyTrail"
+            url="https://policytrail.com/"
+            status="Active"
+          />
+
+          <Project
+            date="November 2020"
+            desc="Find how much money you would have made if you invested in..."
+            domain="ifyoubought.xyz"
+            pClass="nn_project nn_iybxyz"
+            title="If You Bought XYZ"
+            url="https://ifyoubought.xyz/"
+            status="Autopilot"
+          />
+
           <Project
             date="October 2020"
             desc="Travel thru time and explore your favorite tech products, then & now."
@@ -44,25 +69,28 @@ class Projects extends Component {
             pClass="nn_project nn_techrewind"
             title="TechRewind"
             url="https://techrewind.co/"
+            status="Active"
           />
 
             <Project
               date="October 2019"
               desc="Most used repositories on Github"
               domain="usedby.dev (defunct)"
-              pClass="nn_project nn_usedby"
+              pClass="nn_project nn_usedby dead"
               title="Usedby"
               url="https://usedby.dev/"
+              status="Dead"
             />
 
             <Project
               date="November 2018"
               desc="Complete list of dead Google products / services, when and why
             they died."
-              domain="gcmetery.co"
+              domain="gcemetery.co"
               pClass="nn_project nn_gcemetery"
               title="The Google Cemetery"
               url="https://gcemetery.co/"
+              status="Acquired"
             />
 
             <Project
@@ -72,6 +100,8 @@ class Projects extends Component {
               pClass="nn_project nn_acquiredby"
               title="AcquiredBy"
               url="https://acquiredby.co/"
+              status="Acquired"
+
             />
 
             <Project
@@ -81,6 +111,7 @@ class Projects extends Component {
               pClass="nn_project nn_exchainged"
               title="ExChainged"
               url="https://exchainged.co/"
+              status="Dead"
             />
 
             <Project
@@ -90,6 +121,7 @@ class Projects extends Component {
               pClass="nn_project nn_faang"
               title="FAANGWatch"
               url="https://faangwat.ch/"
+              status="Autopilot"
             />
 
             <Project
@@ -99,6 +131,7 @@ class Projects extends Component {
               pClass="nn_project nn_urepublic"
               title="Unicorn Republic"
               url="https://unicornrepublic.co/"
+              status="Acquired"
             />
 
             <Project
@@ -108,6 +141,7 @@ class Projects extends Component {
               pClass="nn_project nn_workingtime"
               title="Working Time"
               url="https://workingti.me/"
+              status="Autopilot"
             />
           </div>
         </div>

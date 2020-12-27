@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
     const pageTitle = "Hi, I'm Naeem.";
     const pageContent = `I’m a self-taught Web / Frontend developer. I mostly work around WordPress, PHP, MySQL. I'm currently focusing on JavaScript, React.js and JAMStack. I'm a creator at heart, so I enjoy taking a raw thought and building it to completion.`;
-    const projectHeading = "Selected Projects";
+    const projectHeading = "Latest projects";
 
     return (
       <Fragment>
@@ -31,32 +31,35 @@ class Home extends Component {
             <h2>{projectHeading}</h2>
 
             <Project
+            date="December 2020"
+            desc="Free privacy policy hosting for mobile app developers (iOS & Android)"
+            domain="policytrail.com"
+            pClass="nn_project nn_ptrail"
+            title="PolicyTrail"
+            url="https://policytrail.com/"
+            status="Active"
+          />
+
+          <Project
+            date="November 2020"
+            desc="Find how much money you would have made if you invested in..."
+            domain="ifyoubought.xyz"
+            pClass="nn_project nn_iybxyz"
+            title="If You Bought XYZ"
+            url="https://ifyoubought.xyz/"
+            status="Autopilot"
+          />
+
+          <Project
             date="October 2020"
             desc="Travel thru time and explore your favorite tech products, then & now."
             domain="techrewind.co"
             pClass="nn_project nn_techrewind"
             title="TechRewind"
             url="https://techrewind.co/"
+            status="Active"
           />
 
-            <Project
-              date="November 2018"
-              desc="Complete list of dead Google products / services, when and why
-            they died."
-              domain="gcmetery.co"
-              pClass="nn_project nn_gcemetery"
-              title="The Google Cemetery"
-              url="https://gcemetery.co/"
-            />
-
-            <Project
-              date="June 2017"
-              desc="AcquiredBy is a growing database of tech industry acquisitions"
-              domain="acquiredby.co"
-              pClass="nn_project nn_acquiredby"
-              title="AcquiredBy"
-              url="https://acquiredby.co/"
-            />
 
             <NavLink className="nn_view-projects" to="/projects/" strict>
               View all projects &rarr;

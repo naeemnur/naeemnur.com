@@ -40,7 +40,7 @@ a:hover,
 a:active,
 a:focus {
   color: #0246a2;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 p {
@@ -190,13 +190,17 @@ pre code {
 
 .nn_header {
   background-color: $primary-text;
-  padding: 0.8em 0;
+  padding: 30px 0;
+}
+
+.nn_navbar {
+  overflow: hidden;
 }
 
 .nn_hero {
   background: rgba(0, 0, 0, 0.035);
   padding: 30px 0;
-  border-radius: 5px;
+  border-radius: 2px;
 
   & h1 {
     margin: 0;
@@ -210,24 +214,46 @@ pre code {
 .nn_menu {
   margin: 0;
   padding: 0;
+  line-height: 38px;
+  float: right;
 }
+
 .nn_menuItem {
   display: inline-block;
   & a {
     color: $primary-color;
     text-decoration: none;
     text-transform: lowercase;
-    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
   }
   &.naeem {
     font-weight: bold;
+    float: left;
+    color: #f9f9f9;
+    background: #ffffff26;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 2px;
+    text-transform: lowercase;
   }
+  &:hover {
+    text-decoration: none;  
+  }
+}
+
+.nn_tagline {
+  font-size: 13px;
+  color: #eee;
+  margin-left: 10px;
+  line-height: 38px;
+  letter-spacing: 1px
 }
 
 .nn_featured {
   & h2 {
     @extend .nn_page-title;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
   }
 }
 
@@ -238,15 +264,14 @@ pre code {
   margin-top: 30px;
 }
 
-.nn_project {
+
+a.nn_project {
   padding: 30px;
   border-radius: 2px;
   margin-bottom: 1.5em;
   background: #eee;
-}
-
-a.nn_project {
   display: block;
+  position: relative;
   text-decoration: none;
   -webkit-transition: transform 0.2s ease-in-out;
   -moz-transition: transform 0.2s ease-in-out;
@@ -254,11 +279,7 @@ a.nn_project {
   -o-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
   &:hover {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
+    text-underline: none;
   }
 }
 
@@ -280,6 +301,16 @@ a.nn_project {
 
 .nn_project.nn_techrewind {
   background: #4278d7;
+  color: #fff;
+}
+
+.nn_project.nn_iybxyz {
+  background: #01a3a4;
+  color: #fff;
+}
+
+.nn_project.nn_ptrail {
+  background: #252f3f;
   color: #fff;
 }
 
@@ -314,6 +345,20 @@ a.nn_project {
 
 .nn_project-meta span {
   margin-right: 15px;
+    background: #ffffff26;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nn_project-status {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: #00000080 !important;
+  margin-right: 0 !important;
+  color: #fff;
 }
 
 .nn_view-projects {

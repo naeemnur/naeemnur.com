@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
+import nayme from "./nayme.png";
 
 class About extends Component {
   render() {
@@ -19,6 +20,9 @@ class About extends Component {
         </Helmet>
         <div className="container">
           <h1 className="nn_page-title">{pageTitle}</h1>
+          <div className="nayme-photo">
+            <img src={nayme} alt="Naeem in flesh" />
+          </div>
           <p>{pageContent}</p>
           <p>{pageContentCont}</p>
 
