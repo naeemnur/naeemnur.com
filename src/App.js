@@ -8,7 +8,7 @@ import Home from "./Home";
 import About from "./About";
 import Blog from "./Blog";
 import Single from "./Single";
-import Projects from "./Projects";
+//import Projects from "./Projects";
 import NotFound from "./NotFound";
 import Footer from "./Footer";
 
