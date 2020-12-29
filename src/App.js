@@ -33,7 +33,7 @@ class App extends Component {
           <Route path="/about/" component={About} />
           <Route path="/blog/" component={Blog} />
           <Route path="/post/:title/" component={Single} />
-          <Route path="/projects/" component={Projects} />
+          {/* <Route path="/projects/" component={Projects} /> */}
           <Route component={NotFound} />
         </Switch>
         <Footer />

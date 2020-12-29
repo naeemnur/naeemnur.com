@@ -24,7 +24,7 @@ html {
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 
 body {
-  color: #404040;
+  color: #161616;
   font-family: "IBM Plex Sans", sans-serif;
 
   background: $primary-background;
@@ -190,7 +190,7 @@ pre code {
 
 .nn_header {
   background-color: $primary-text;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 .nn_navbar {
@@ -198,7 +198,7 @@ pre code {
 }
 
 .nn_hero {
-  background: rgba(0, 0, 0, 0.035);
+  background:#ecf0f6;
   padding: 30px 0;
   border-radius: 2px;
 
@@ -214,7 +214,7 @@ pre code {
 .nn_menu {
   margin: 0;
   padding: 0;
-  line-height: 38px;
+  line-height: 35px;
   float: right;
 }
 
@@ -228,13 +228,12 @@ pre code {
     letter-spacing: 1px;
   }
   &.naeem {
-    font-weight: bold;
     float: left;
     color: #f9f9f9;
-    background: #ffffff26;
+    background: #8674741a;
     padding: 5px 15px;
-    font-size: 18px;
-    border-radius: 2px;
+    font-size: 16px;
+    border-radius: 99px;
     text-transform: lowercase;
   }
   &:hover {
@@ -250,10 +249,15 @@ pre code {
   letter-spacing: 1px
 }
 
+
 .nn_featured {
+  margin-left: -1%;
+  margin-right: -1%;
   & h2 {
     @extend .nn_page-title;
     margin-bottom: 1em;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 }
 
@@ -266,37 +270,54 @@ pre code {
 
 
 a.nn_project {
-  padding: 30px;
-  border-radius: 2px;
+  padding: 25px;
+  vertical-align: top;
+  border-radius: 5px;
   margin-bottom: 1.5em;
-  background: #eee;
+  background: transparent;
   display: block;
   position: relative;
   text-decoration: none;
-  -webkit-transition: transform 0.2s ease-in-out;
-  -moz-transition: transform 0.2s ease-in-out;
-  -ms-transition: transform 0.2s ease-in-out;
-  -o-transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
+  width: 23%;
+  display: inline-block;
+  margin: 0 1% 1rem;
+  transition: 90ms linear; 
+  @media (max-width: $bp-xlarge) {
+    width: 48%;
+  }
+
+  @media (max-width: $bp-medium) {
+    width: 98%;
+  }
   &:hover {
     text-underline: none;
   }
 }
 
 .nn_project-title {
-  font-size: 1.5em;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 0 10px;
 }
 
+.nn_project-desc {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .nn_project.nn_usedby {
-  background: #24292e;
+  background: gray;
   color: #fff;
 }
 
 .nn_project.nn_gcemetery {
-  background: #eb4132;
+  background: #EB4132;
   color: #fff;
+}
+
+.nn_project.nn_sh {
+  background: #5E878C;
+  color: #F1EFE9;
 }
 
 .nn_project.nn_techrewind {
@@ -310,12 +331,12 @@ a.nn_project {
 }
 
 .nn_project.nn_ptrail {
-  background: #252f3f;
+  background: #374151;
   color: #fff;
 }
 
 .nn_project.nn_acquiredby {
-  background: #40aaa1;
+  background: #252349;
   color: #fff;
 }
 
@@ -325,40 +346,71 @@ a.nn_project {
 }
 
 .nn_project.nn_exchainged {
-  background: #383e47;
+  background: #f89406;
   color: #fff;
 }
 
 .nn_project.nn_urepublic {
-  background: #ecf0f6;
-  color: #6e7a8c;
-}
-
-.nn_project.nn_workingtime {
-  background: #ae112b;
+  background: #2D3436;
   color: #fff;
 }
 
+.nn_project.nn_workingtime {
+  background: #FAF0A0;
+  color: #000;
+}
+
+.nn_project.nn_kp {
+  background: #FF9300;
+  color: #fff;
+}
+
+.nn_project.nn_cn {
+  background: #5177BC;
+  color: #fff;
+}
+
+.nn_project.nn_whns {
+  background: #7C8B95;
+  color: #fff;
+}
+
+.nn_project.nn_sr {
+  background: #F73635;
+  color: #fff;
+}
+
+.nn_project.nn_cssr {
+  background: #246CB4;
+  color: #fff;
+}
 .nn_project-meta {
   font-size: 15px;
 }
 
 .nn_project-meta span {
-  margin-right: 15px;
     background: #ffffff26;
+    margin-bottom: 1px;
     border-radius: 2px;
     padding: 5px 10px;
     font-size: 12px;
+    display: block;
     text-transform: uppercase;
 }
 
-.nn_project-status {
-  position: absolute;
-  top: 30px;
-  right: 30px;
+.nn_project-date {
+  margin-right: 5px !important;
+}
+
+.nn_project-status,
+.nn_project-date {
   background: #00000080 !important;
-  margin-right: 0 !important;
+  margin-right: 0;
   color: #fff;
+  border-radius: 99px !important;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block !important;
 }
 
 .nn_view-projects {

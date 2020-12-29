@@ -7,7 +7,7 @@ export const Project = ({ date, desc, domain, pClass, title, url, status }) => (
     <h4 className="nn_project-title">{title}</h4>
     <p className="nn_project-desc">{desc}</p>
     <div className="nn_project-meta">
-      <span className="nn_project-url">{domain}</span>
+      {/* <span className="nn_project-url">{domain}</span> */}
       <span title="Date launched" className="nn_project-date">
         {date}
       </span>
