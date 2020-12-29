@@ -181,7 +181,7 @@ class Home extends Component {
 
             <Project
               date="2015"
-              desc="A fun liitle site where you become a soccer referee."
+              desc="A fun little site where you become a soccer referee."
               pClass="nn_project nn_sr dead"
               title="Straight Red"
               url="#"
