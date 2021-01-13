@@ -211,6 +211,10 @@ pre code {
   }
 }
 
+.nn_p {
+  margin-left: 1%;
+}
+
 .nn_menu {
   margin: 0;
   padding: 0;
@@ -255,7 +259,7 @@ pre code {
   margin-right: -1%;
   & h2 {
     @extend .nn_page-title;
-    margin-bottom: 1em;
+    margin-bottom: 5px;
     margin-left: 1%;
     margin-right: 1%;
   }

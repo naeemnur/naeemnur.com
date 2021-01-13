@@ -28,15 +28,16 @@ class Home extends Component {
 
         <div className="container">
           <div className="nn_featured">
-            <h2>{projectHeading}</h2>
+            <h2>{projectHeading} &not;</h2>
+            <p className="nn_p">If you are interested in purchasing any of the available side projects, shoot me an <a href="mailto:naeemnur@gmail.com">email.</a>  </p>
 
             <Project
             date="2021"
-            desc="List of 20+ national symbols for more than 200 different countries"
+            desc="National symbols of the world. More than 200 different countries included"
             pClass="nn_project nn_sh"
             title="Symbol Hunt"
-            url="#"
-            status="Coming Soon"
+            url="https://symbolhunt.com"
+            status="Active"
           />
 
             <Project
@@ -157,7 +158,7 @@ class Home extends Component {
             />
 
 
-<Project
+            <Project
               date="2017"
               desc="A definitive list of tech acquisitions."
               // domain="acquiredby.co"
