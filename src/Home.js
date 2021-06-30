@@ -47,7 +47,7 @@ class Home extends Component {
             pClass="nn_project nn_ptrail"
             title="PolicyTrail"
             url="https://policytrail.com/"
-            status="Active"
+            status="Sold"
           />
 
           <Project
