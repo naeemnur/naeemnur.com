@@ -29,52 +29,52 @@ class Home extends Component {
         <div className="container">
           <div className="nn_featured">
             <h2>{projectHeading} &not;</h2>
-            <p className="nn_p">If you are interested in purchasing any of the available side projects, shoot me an <a href="mailto:naeemnur@gmail.com">email.</a>  </p>
+            <p className="nn_p">
+              If you are interested in purchasing any of the available side
+              projects, shoot me an{" "}
+              <a href="mailto:naeemnur@gmail.com">email.</a>{" "}
+            </p>
 
             <Project
-            date="2021"
-            desc="National symbols of the world. More than 200 different countries included"
-            pClass="nn_project nn_sh"
-            title="Symbol Hunt"
-            url="https://symbolhunt.com"
-            status="Active"
-          />
+              date="2021"
+              desc="National symbols of the world. More than 200 different countries included"
+              pClass="nn_project nn_sh"
+              title="Symbol Hunt"
+              url="https://symbolhunt.com"
+              status="Active"
+            />
 
             <Project
-            date="2020"
-            desc="Free privacy policy hosting for mobile app developers (iOS & Android)"
-            // domain="policytrail.com"
-            pClass="nn_project nn_ptrail"
-            title="PolicyTrail"
-            url="https://policytrail.com/"
-            status="Sold"
-          />
+              date="2020"
+              desc="Free privacy policy hosting for mobile app developers (iOS & Android)"
+              // domain="policytrail.com"
+              pClass="nn_project nn_ptrail"
+              title="PolicyTrail"
+              url="https://policytrail.com/"
+              status="Sold"
+            />
 
-          <Project
-            date="2020"
-            desc="Find how much money you would have made if you invested in..."
-            // domain="ifyoubought.xyz"
-            pClass="nn_project nn_iybxyz"
-            title="If You Bought XYZ"
-            url="https://ifyoubought.xyz/"
-            status="Autopilot"
-          />
+            <Project
+              date="2020"
+              desc="Find how much money you would have made if you invested in..."
+              // domain="ifyoubought.xyz"
+              pClass="nn_project nn_iybxyz"
+              title="If You Bought XYZ"
+              url="https://ifyoubought.xyz/"
+              status="Sold"
+            />
 
-          <Project
-            date="2020"
-            desc="Travel thru time and explore your favorite tech products, then & now."
-            // domain="techrewind.co"
-            pClass="nn_project nn_techrewind"
-            title="TechRewind"
-            url="https://techrewind.co/"
-            status="Active"
-          />
+            <Project
+              date="2020"
+              desc="Travel thru time and explore your favorite tech products, then & now."
+              // domain="techrewind.co"
+              pClass="nn_project nn_techrewind"
+              title="TechRewind"
+              url="https://techrewind.co/"
+              status="Sold"
+            />
 
-     
-
-
-
-<Project
+            <Project
               date="2019"
               desc="A list of most used and popular repositories on Github"
               // domain="usedby.dev"
@@ -84,19 +84,17 @@ class Home extends Component {
               status="Dead"
             />
 
- 
-
-<Project
+            <Project
               date="2019"
               desc="Auto updating end of day stock prices of key tech giants"
               // domain="faangwat.ch"
               pClass="nn_project nn_faang"
               title="FAANGWatch"
               url="https://faangwat.ch/"
-              status="Autopilot"
+              status="Dead"
             />
 
-<Project
+            <Project
               date="2019"
               desc="Curated list of startups that evolved into $1 Billion+ corporations"
               // domain="unicornrepublic.co"
@@ -106,8 +104,7 @@ class Home extends Component {
               status="Sold"
             />
 
-
-<Project
+            <Project
               date="2019"
               desc="A hub for token rates, tokens, and exchanges that support them"
               // domain="exchainged.co"
@@ -117,18 +114,17 @@ class Home extends Component {
               status="Dead"
             />
 
-
-<Project
+            <Project
               date="2019"
               desc="Average working hours per week around the globe."
               // domain="workingti.me"
               pClass="nn_project nn_workingtime"
               title="Working Time"
               url="https://workingti.me/"
-              status="Autopilot"
+              status="Dead"
             />
 
-<Project
+            <Project
               date="2018"
               desc="Dead Google products, when and why they died."
               // domain="gcemetery.co"
@@ -137,7 +133,6 @@ class Home extends Component {
               url="https://gcemetery.co/"
               status="Sold"
             />
-
 
             <Project
               date="2018"
@@ -157,7 +152,6 @@ class Home extends Component {
               status="Dead"
             />
 
-
             <Project
               date="2017"
               desc="A definitive list of tech acquisitions."
@@ -166,9 +160,7 @@ class Home extends Component {
               title="AcquiredBy"
               url="https://acquiredby.co/"
               status="Sold"
-
             />
-
 
             <Project
               date="2017"
@@ -179,7 +171,6 @@ class Home extends Component {
               status="Dead"
             />
 
-
             <Project
               date="2015"
               desc="A fun little site where you become a soccer referee."
@@ -189,7 +180,6 @@ class Home extends Component {
               status="Dead"
             />
 
-
             <Project
               date="2009"
               desc="Code snippets, tools, resources for developers."
@@ -198,7 +188,6 @@ class Home extends Component {
               url="https://cssreflex.com"
               status="Sold"
             />
-
           </div>
         </div>
       </Fragment>
