@@ -7,6 +7,6 @@ tags: ["Haiku"]
 
 >ambidextrous friend
 >
->found her from the internet
+>met her on the internet
 >
 >off: paints and on: writes
