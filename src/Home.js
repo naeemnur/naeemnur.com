@@ -37,7 +37,7 @@ class Home extends Component {
 
             <Project
               date="2022"
-              desc="Create and share your online resume"
+              desc="Create and share your online resume. No non-sense resumes."
               pClass="nn_project nn_tr"
               title="Tiny Resume"
               url="https://tinyresume.co/"
@@ -46,7 +46,7 @@ class Home extends Component {
 
             <Project
               date="2022"
-              desc="Modern inventions that changed the world."
+              desc="Modern era inventions that changed the world and some didnt."
               pClass="nn_project nn_ib"
               title="InventedBy"
               url="https://inventedby.co/"
