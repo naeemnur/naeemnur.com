@@ -36,6 +36,24 @@ class Home extends Component {
             </p>
 
             <Project
+              date="2022"
+              desc="Create and share your online resume"
+              pClass="nn_project nn_tr"
+              title="Tiny Resume"
+              url="https://tinyresume.co/"
+              status="Coming soon"
+            />
+
+            <Project
+              date="2022"
+              desc="Modern inventions that changed the world."
+              pClass="nn_project nn_ib"
+              title="InventedBy"
+              url="https://inventedby.co/"
+              status="Active"
+            />
+
+            <Project
               date="2021"
               desc="National symbols of the world. More than 200 different countries included"
               pClass="nn_project nn_sh"
