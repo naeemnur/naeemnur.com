@@ -37,11 +37,20 @@ class Home extends Component {
 
             <Project
               date="2022"
+              desc="Sell, Buy & Discover pre-revenue Side Projects."
+              pClass="nn_project nn_tr"
+              title="ZeroAcquire"
+              url="https://zeroacquire.com/"
+              status="Active"
+            />
+
+            <Project
+              date="2022"
               desc="Create and share your online resume. No non-sense resumes."
               pClass="nn_project nn_tr"
               title="Tiny Resume"
               url="https://tinyresume.co/"
-              status="Coming soon"
+              status="Active"
             />
 
             <Project

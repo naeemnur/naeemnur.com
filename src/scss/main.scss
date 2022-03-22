@@ -198,7 +198,7 @@ pre code {
 }
 
 .nn_hero {
-  background:#ecf0f6;
+  background: #ecf0f6;
   padding: 30px 0;
   border-radius: 2px;
 
@@ -241,7 +241,7 @@ pre code {
     text-transform: lowercase;
   }
   &:hover {
-    text-decoration: none;  
+    text-decoration: none;
   }
 }
 
@@ -250,9 +250,8 @@ pre code {
   color: #eee;
   margin-left: 10px;
   line-height: 38px;
-  letter-spacing: 1px
+  letter-spacing: 1px;
 }
-
 
 .nn_featured {
   margin-left: -1%;
@@ -272,7 +271,6 @@ pre code {
   margin-top: 30px;
 }
 
-
 a.nn_project {
   padding: 25px;
   vertical-align: top;
@@ -285,7 +283,7 @@ a.nn_project {
   width: 23%;
   display: inline-block;
   margin: 0 1% 1rem;
-  transition: 90ms linear; 
+  transition: 90ms linear;
   @media (max-width: $bp-xlarge) {
     width: 48%;
   }
@@ -315,13 +313,13 @@ a.nn_project {
 }
 
 .nn_project.nn_gcemetery {
-  background: #EB4132;
+  background: #eb4132;
   color: #fff;
 }
 
 .nn_project.nn_sh {
-  background: #5E878C;
-  color: #F1EFE9;
+  background: #5e878c;
+  color: #f1efe9;
 }
 
 .nn_project.nn_techrewind {
@@ -355,37 +353,37 @@ a.nn_project {
 }
 
 .nn_project.nn_urepublic {
-  background: #2D3436;
+  background: #2d3436;
   color: #fff;
 }
 
 .nn_project.nn_workingtime {
-  background: #FAF0A0;
+  background: #faf0a0;
   color: #000;
 }
 
 .nn_project.nn_kp {
-  background: #FF9300;
+  background: #ff9300;
   color: #fff;
 }
 
 .nn_project.nn_cn {
-  background: #5177BC;
+  background: #5177bc;
   color: #fff;
 }
 
 .nn_project.nn_whns {
-  background: #7C8B95;
+  background: #7c8b95;
   color: #fff;
 }
 
 .nn_project.nn_sr {
-  background: #F73635;
+  background: #f73635;
   color: #fff;
 }
 
 .nn_project.nn_cssr {
-  background: #246CB4;
+  background: #246cb4;
   color: #fff;
 }
 .nn_project-meta {
@@ -393,13 +391,13 @@ a.nn_project {
 }
 
 .nn_project-meta span {
-    background: #ffffff26;
-    margin-bottom: 1px;
-    border-radius: 2px;
-    padding: 5px 10px;
-    font-size: 12px;
-    display: block;
-    text-transform: uppercase;
+  background: #ffffff26;
+  margin-bottom: 1px;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 12px;
+  display: block;
+  text-transform: uppercase;
 }
 
 .nn_project-date {
@@ -478,8 +476,12 @@ a.nn_project {
   margin-top: 20px;
 }
 
+.nn_project.nn_za {
+  background: #ecf0f6;
+  color: #000;
+}
 
-.nn_project.nn_tr {
+.nn_project.nn_za {
   background: #222020;
   color: #fff;
 }
