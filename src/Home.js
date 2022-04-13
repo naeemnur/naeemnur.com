@@ -29,11 +29,6 @@ class Home extends Component {
         <div className="container">
           <div className="nn_featured">
             <h2>{projectHeading} &not;</h2>
-            <p className="nn_p">
-              If you are interested in purchasing any of the available side
-              projects, shoot me an{" "}
-              <a href="mailto:naeemnur@gmail.com">email.</a>{" "}
-            </p>
 
             <Project
               date="2022"
@@ -50,7 +45,7 @@ class Home extends Component {
               pClass="nn_project nn_tr"
               title="Tiny Resume"
               url="https://tinyresume.co/"
-              status="Active"
+              status="Sold"
             />
 
             <Project
@@ -58,8 +53,8 @@ class Home extends Component {
               desc="Modern era inventions that changed the world and some didnt."
               pClass="nn_project nn_ib"
               title="InventedBy"
-              url="https://inventedby.co/"
-              status="Active"
+              url="https://flippa.com/11095938-a-curated-list-of-significant-inventions-from-the-modern-era-that-changed-the-world-and-some-of-which-didnt"
+              status="For sale"
             />
 
             <Project
