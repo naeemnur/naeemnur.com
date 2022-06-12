@@ -32,7 +32,7 @@ class Home extends Component {
 
             <Project
               date="2022"
-              desc="Sell, Buy & Discover pre-revenue side projects and MVPs."
+              desc="Sell, Buy &amp; Discover pre-revenue side projects and MVPs."
               pClass="nn_project nn_za"
               title="ZeroAcquire"
               url="https://zeroacquire.com/"
@@ -53,8 +53,8 @@ class Home extends Component {
               desc="Modern era inventions that changed the world and some didnt."
               pClass="nn_project nn_ib"
               title="InventedBy"
-              url="https://flippa.com/11095938-a-curated-list-of-significant-inventions-from-the-modern-era-that-changed-the-world-and-some-of-which-didnt"
-              status="For sale"
+              url="https://inventedby.co"
+              status="Sold"
             />
 
             <Project
