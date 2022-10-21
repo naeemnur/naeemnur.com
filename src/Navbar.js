@@ -7,7 +7,7 @@ class Navbar extends Component {
       <header className="nn_header">
         <div className="container">
           <nav className="nn_navbar">
-          <NavLink className="naeem nn_menuItem" to="/">👨🏻‍💻 Naeem</NavLink>
+          <NavLink className="naeem nn_menuItem" to="/">👨🏻‍💻 Naeem </NavLink>
             <ul className="nn_menu">
               <li className="nn_menuItem">
                 <NavLink to="/about/">About</NavLink>
