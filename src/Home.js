@@ -36,7 +36,7 @@ class Home extends Component {
               pClass="nn_project nn_za"
               title="ZeroAcquire"
               url="https://zeroacquire.com/"
-              status="Active"
+              status="Sold"
             />
 
             <Project
