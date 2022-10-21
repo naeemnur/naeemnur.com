@@ -32,7 +32,7 @@ class Home extends Component {
 
             <Project
               date="2022"
-              desc="Sell, Buy &amp; Discover pre-revenue side projects and MVPs."
+              desc="Sell, Buy &amp; Discover pre-revenue side projects and MVPs"
               pClass="nn_project nn_za"
               title="ZeroAcquire"
               url="https://zeroacquire.com/"
