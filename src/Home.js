@@ -59,7 +59,7 @@ class Home extends Component {
 
             <Project
               date="2021"
-              desc="National symbols of the world. More than 200 different countries included"
+              desc="Discover the symbols of the World and their meanings."
               pClass="nn_project nn_sh"
               title="Symbol Hunt"
               url="https://symbolhunt.com"
