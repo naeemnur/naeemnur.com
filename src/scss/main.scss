@@ -32,14 +32,14 @@ body {
 }
 
 a {
-  color: #0366ee;
+  color: yellow;
   text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0246a2;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -198,9 +198,9 @@ pre code {
 }
 
 .nn_hero {
-  background: #ecf0f6;
-  padding: 60px 0;
-  border-radius: 2px;
+  background:#2A2A2C;
+  padding: 45px 0;
+  color: #fff;
 
   & h1 {
     margin: 0;
@@ -230,6 +230,9 @@ pre code {
     text-transform: lowercase;
     margin-left: 20px;
     letter-spacing: 1px;
+  }
+  & a:hover {
+    color: yellow;
   }
   &.naeem {
     float: left;
@@ -436,6 +439,7 @@ a.nn_project {
   line-height: 1;
   max-width: 200px;
   &:hover {
+
     color: #f9f9f3;
     background: $primary-text;
     text-decoration: none;
@@ -449,8 +453,8 @@ a.nn_project {
 }
 
 .nn_about-nayme {
-  font-size: 12px;
-  text-transform: uppercase;
+  font-size: 16px;
+  
   letter-spacing: 1px;
 }
 
@@ -490,4 +494,13 @@ a.nn_project {
 .nn_project.nn_ib {
   background: #697384;
   color: #fff;
+}
+
+.react-photo-gallery--gallery {
+  margin-top: 30px;
+}
+
+.nn_about {
+
+  margin-bottom: 30px;
 }

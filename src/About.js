@@ -18,14 +18,20 @@ class About extends Component {
         <Helmet>
           <title>{pageTitle} - Naeem Noor</title>
         </Helmet>
+
+        <div className="nn_hero nn_about">
+          <div className="container">
+            <h1>{pageTitle}</h1>
+            <p>{pageContent}</p>
+      
+          </div>
+        </div>
+
         <div className="container">
-          <h1 className="nn_page-title">{pageTitle}</h1>
+      
           <div className="nayme-photo">
             <img src={nayme} alt="Naeem in flesh" />
           </div>
-          <p>{pageContent}</p>
-          <p>{pageContentCont}</p>
-
           <h2>Skills & Expertise</h2>
           <ul>
             <li>

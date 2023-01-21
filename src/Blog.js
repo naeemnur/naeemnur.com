@@ -10,8 +10,16 @@ const Blog = () => (
     <Helmet>
       <title>{pageTitle} - Naeem Noor</title>
     </Helmet>
+
+    <div className="nn_hero nn_about">
+          <div className="container">
+            <h1>{pageTitle}</h1>
+            <p>Rants, links, thoughts and the occasional Haiku.</p>
+          
+          </div>
+        </div>
+
     <div className="container">
-      <h1 className="nn_page-title">{pageTitle}</h1>
       <ul className="nn_blog-list">
         {[...posts()].map(post => {
           const url = post[0];

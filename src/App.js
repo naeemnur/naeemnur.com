@@ -6,6 +6,7 @@ import ReactGA from "react-ga";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
+import Photos from "./Photos";
 import Blog from "./Blog";
 import Single from "./Single";
 //import Projects from "./Projects";
@@ -31,6 +32,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about/" component={About} />
+          <Route path="/photos/" component={Photos} />
           <Route path="/blog/" component={Blog} />
           <Route path="/post/:title/" component={Single} />
           {/* <Route path="/projects/" component={Projects} /> */}
