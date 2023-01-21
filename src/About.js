@@ -10,8 +10,7 @@ class About extends Component {
     coding layouts in tables. Fast forward a few years, and I'm still
     meddling about in HTML, CSS and JavaScript, reading and launching out
     of the box websites in my free time.`;
-    const pageContentCont = `My key interests lie in front-end development, performance, and
-    JavaScript applications (although I'm still learning)`;
+    
 
     return (
       <Fragment>

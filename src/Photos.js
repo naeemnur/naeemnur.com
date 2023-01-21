@@ -1,4 +1,4 @@
-import React, { useState, useCallback, Component, Fragment } from "react";
+import React, { useState, useCallback, Fragment } from "react";
 import { Helmet } from "react-helmet";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -36,8 +36,6 @@ function Photos() {
         </div>
 
     <div className="container">
-
-
       <Gallery photos={photos} direction={"row"} onClick={openLightbox} />
   <ModalGateway>
     {viewerIsOpen ? (
