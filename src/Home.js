@@ -6,7 +6,7 @@ import { Project } from "./Projects";
 class Home extends Component {
   render() {
     const pageTitle = "Hi, I'm Naeem.";
-    const pageContent = `I’m a self-taught Web developer based in 🇧🇭 Bahrain. I mostly work around WordPress, PHP, MySQL. I'm currently focusing on JavaScript, React.js and JAMStack. I'm a creator at heart, so I enjoy taking a raw thought and building it to completion.`;
+    const pageContent = `I’m a self-taught Web developer based in 🇧🇭 Bahrain. I mostly work around WordPress, PHP, MySQL. I'm a creator at heart, so I enjoy taking a raw thought and building it to completion.`;
     const projectHeading = "Side projects";
 
     return (

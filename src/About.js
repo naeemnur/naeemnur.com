@@ -37,10 +37,10 @@ class About extends Component {
               <strong>Core</strong>: HTML5, CSS3, JavaScript, RWD, PHP and MySQL
             </li>
             <li>
-              <strong>Libraries</strong>: React.js, jQuery and Tailwind CSS
+              <strong>Libraries</strong>: Laravel, React.js, jQuery and Tailwind CSS
             </li>
             <li>
-              <strong>CMS</strong>: WordPress (Themes / Plugins)
+              <strong>CMS</strong>: WordPress (Themes / Plugins development)
             </li>
           </ul>
           <h2>Currently Using</h2>
@@ -49,20 +49,12 @@ class About extends Component {
               <strong>Computer</strong>: MacBook Pro 2017 13'
             </li>
             <li>
-              <strong>Editor</strong>: Visual Studio Code
+              <strong>Editor</strong>: VS Code
             </li>
             <li>
               <strong>Font</strong>: PragmataPro
             </li>
-            <li>
-              <strong>Code Syntax Theme</strong>: Ayu Mirage
-            </li>
-            <li>
-              <strong>Notes</strong>: Notes (Mac)
-            </li>
-            <li>
-              <strong>Todo</strong>: Wunderlist
-            </li>
+
           </ul>
           <p>
             This website was built using React, Sass and other tools. Hosted
