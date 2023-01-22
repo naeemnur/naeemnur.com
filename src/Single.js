@@ -28,9 +28,16 @@ const Single = ({ match }) => {
       <Helmet>
         <title>{title} - Blog - Naeem Noor</title>
       </Helmet>
+
+      <div className="nn_hero nn_about">
+          <div className="container">
+            <h1>{title}</h1>
+            <p>{dated}</p>
+          
+          </div>
+        </div>
+
       <div className="container">
-        <h1 className="nn_page-title">{title}</h1>
-        <span className="nn_page-date">{dated}</span>
         <div
           className="nn_page-body"
           dangerouslySetInnerHTML={{ __html: __content }}

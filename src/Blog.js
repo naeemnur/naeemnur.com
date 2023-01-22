@@ -23,7 +23,15 @@ const Blog = () => (
       <ul className="nn_blog-list">
         {[...posts()].map(post => {
           const url = post[0];
-          const { title } = post[1];
+          //const { title } = post[1];
+          const { title, date } = post[1];
+
+          var d = new Date(date);
+          var dated = d
+            .toISOString()
+            .slice(0, 10)
+            .replace(/-/g, "/");
+        
           return (
             <li>
               <NavLink
@@ -32,6 +40,7 @@ const Blog = () => (
                 to={"/post/" + url}
               >
                 {title}
+                <span class="blog-date-archive">{dated}</span>
               </NavLink>
             </li>
           );

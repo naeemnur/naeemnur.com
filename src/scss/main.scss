@@ -99,11 +99,11 @@ h6,
 
 blockquote {
   font-style: italic;
+  background: #fff;
   border-left: 3px solid #eee;
   margin: 0 0 1.5625em;
   color: #555;
-  padding-left: 0.8421052632em;
-  padding-right: 0.8421052632em;
+  padding: 0.5em 0.8421052632em;
 }
 
 blockquote p {
@@ -462,9 +462,10 @@ a.nn_project {
 }
 
 .nn_blog-list li {
-  padding-bottom: 0.5em;
+  padding: 0.5em 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 0.5em;
+  background: #f9f9f9;
 }
 
 .nn_blog-list li a,
@@ -474,9 +475,13 @@ a.nn_project {
   color: #222;
 }
 
-.nn_page-body {
-  margin-top: 20px;
+.nn_blog-list li a:hover {
+  color: #b9ac28;
 }
+
+// .nn_page-body {
+//   margin-top: 20px;
+// }
 
 .nn_project.nn_za {
   background: #d4d9df;
@@ -500,4 +505,13 @@ a.nn_project {
 .nn_about {
 
   margin-bottom: 30px;
+}
+
+.blog-date-archive {
+  color: gray;
+  text-align: right;
+  font-size: 12px;
+  vertical-align: bottom;
+  float: right;
+  line-height: 25px;
 }
