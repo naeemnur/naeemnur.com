@@ -26,26 +26,25 @@ html {
 body {
   color: #161616;
   font-family: "IBM Plex Sans", sans-serif;
-
   background: $primary-background;
   font-size: 1rem;
 }
 
 a {
-  color: yellow;
+  color: #b9ac28;
   text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: yellow;
+  color: #b9ac28;
   text-decoration: none;
 }
 
 p {
   font-weight: 400;
-  line-height: 26px;
+  line-height: 28px;
   padding: 0;
   margin: 0 0 20px 0;
 }
@@ -198,7 +197,7 @@ pre code {
 }
 
 .nn_hero {
-  background:#2A2A2C;
+  background:#2a2a2c;
   padding: 45px 0;
   color: #fff;
 
@@ -232,16 +231,15 @@ pre code {
     letter-spacing: 1px;
   }
   & a:hover {
-    color: yellow;
+    color: #b9ac28;
   }
   &.naeem {
     float: left;
     color: #f9f9f9;
-    background: #8674741a;
-    padding: 5px 15px;
+    padding: 5px 0;
     font-size: 16px;
-    border-radius: 99px;
     text-transform: lowercase;
+    letter-spacing: 1px;
   }
   &:hover {
     text-decoration: none;
@@ -277,7 +275,6 @@ pre code {
 a.nn_project {
   padding: 25px;
   vertical-align: top;
-  border-radius: 5px;
   margin-bottom: 1.5em;
   background: transparent;
   display: block;
@@ -482,7 +479,7 @@ a.nn_project {
 }
 
 .nn_project.nn_za {
-  background: #ecf0f6;
+  background: #d4d9df;
   color: #000;
 }
 
