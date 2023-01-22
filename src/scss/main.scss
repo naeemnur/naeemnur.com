@@ -520,3 +520,16 @@ a.nn_project {
   color: #fff !important;
   border-radius: 0 !important;
 }
+
+@media (max-width: 460px) {
+  .nn_menu {
+      float: none;
+      text-align: center;
+  }
+  .nn_menuItem.naeem {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
