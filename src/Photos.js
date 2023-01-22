@@ -30,7 +30,7 @@ function Photos() {
           <div className="container">
             <h1>{pageTitle}</h1>
              
-      <p>Like most people, I take a lot of not-so-great photos. Here is a collection of some of my selected shots using <strong>Lumix GX9</strong> (15mmm, 20mm, 12-60mm), <strong>Fujifilm XF10</strong> and <strong>Pentax Q-S1</strong> (01, 02, 06). </p>
+      <p>Like most people, I take a lot of not-so-great photos. With happy accidents I often surprise myself 😄 Here is a selection of some of the photos I shot using  <strong>Lumix GX9</strong> (15mmm, 20mm, 12-60mm), <strong>Fujifilm XF10</strong> and <strong>Pentax Q-S1</strong> (01, 02, 06). </p>
          
           </div>
         </div>
