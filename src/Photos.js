@@ -42,6 +42,8 @@ function Photos() {
         images={images}
         onClick={handleClick}
         enableImageSelection={false}
+        rowHeight={320}
+        margin={4}
       />
       {!!currentImage && (
         /* @ts-ignore */
