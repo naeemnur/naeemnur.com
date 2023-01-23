@@ -83,4 +83,84 @@ export const images: CustomImage[] = [
 
     ],
   },
+  {
+    src: "/images/above.jpeg",
+    original: "/images/above.jpeg",
+    width: 1065,
+    height: 1600,
+    tags: [
+      { value: "Pentax Q-S1" },
+      { value: "06" },
+    ],
+  },
+    {
+      src: "/images/alfredo.jpeg",
+      original: "/images/alfredo.jpeg",
+      width: 1600,
+      height: 1065,
+      tags: [
+        { value: "Pentax Q-S1" },
+        { value: "06" },
+      ],
+  },
+  {
+    src: "/images/walk.jpeg",
+    original: "/images/walk.jpeg",
+    width: 1065,
+    height: 1600,
+    tags: [
+      { value: "Pentax Q-S1" },
+      { value: "06" },
+    ],
+},
+{
+  src: "/images/ritz.jpeg",
+  original: "/images/ritz.jpeg",
+  width: 1600,
+  height: 1065,
+  tags: [
+    { value: "Pentax Q-S1" },
+    { value: "06" },
+  ],
+},
+{
+  src: "/images/horse.jpeg",
+  original: "/images/horse.jpeg",
+  width: 1600,
+  height: 1065,
+  tags: [
+    { value: "Pentax Q-S1" },
+    { value: "06" },
+  ],
+},
+{
+  src: "/images/mars.jpeg",
+  original: "/images/mars.jpeg",
+  width: 1065,
+  height: 1600,
+  tags: [
+    { value: "Pentax Q-S1" },
+    { value: "06" },
+  ],
+},
+{
+  src: "/images/ritz2.jpeg",
+  original: "/images/ritz2.jpeg",
+  width: 1600,
+  height: 1065,
+  tags: [
+    { value: "Pentax Q-S1" },
+    { value: "06" },
+  ],
+},
+{
+  src: "/images/sea.jpeg",
+  original: "/images/sea.jpeg",
+  width: 1600,
+  height: 1065,
+  tags: [
+    { value: "Pentax Q-S1" },
+    { value: "06" },
+  ],
+},
 ];
