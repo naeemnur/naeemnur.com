@@ -42,6 +42,6 @@ tags: ["Poetry"]
 >**learn the flowers**
 >
 >**go light**
-\
-\
+>  
+>  
 >~ Gary Snyder in Turtle Island (1974)
