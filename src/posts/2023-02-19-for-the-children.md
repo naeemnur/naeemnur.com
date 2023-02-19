@@ -37,10 +37,10 @@ tags: ["Poetry"]
 >
 >you and your children:
 >
->**stay together
+>**stay together**
 >
->learn the flowers
+>**learn the flowers**
 >
->go light**
+>**go light**
 >
 >~ Gary Snyder in Turtle Island (1974)
