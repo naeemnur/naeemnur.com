@@ -48,6 +48,15 @@ class Home extends Component {
               status="Active"
             />
 
+          <Project
+              date="2023"
+              desc="Ancient Writing & Numbering systems"
+              pClass="nn_project nn_ng"
+              title="nGlot"
+              url="https://nglot.com/"
+              status="Active"
+            />
+
             <Project
               date="2022"
               desc="Sell, Buy &amp; Discover pre-revenue side projects and MVPs."
