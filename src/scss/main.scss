@@ -387,6 +387,17 @@ a.nn_project {
   background: #246cb4;
   color: #fff;
 }
+
+.nn_project.nn_fp {
+  background: #333;
+  color: #fff;
+}
+
+.nn_project.nn_bsp {
+  background: #fff;
+  color: #333;
+}
+
 .nn_project-meta {
   font-size: 15px;
 }

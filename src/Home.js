@@ -31,6 +31,24 @@ class Home extends Component {
             <h2>{projectHeading} &not;</h2>
 
             <Project
+              date="2023"
+              desc="Curated list of side projects that became BIG 🚀"
+              pClass="nn_project nn_bsp"
+              title="Big Side Projects"
+              url="https://bigsideprojects.com/"
+              status="Active"
+            />
+
+            <Project
+              date="2023"
+              desc="Flag Color Codes in HEX, RGB, CMYK, HSL & HSV"
+              pClass="nn_project nn_fp"
+              title="Flag Palette"
+              url="https://flagpalette.com/"
+              status="Active"
+            />
+
+            <Project
               date="2022"
               desc="Sell, Buy &amp; Discover pre-revenue side projects and MVPs."
               pClass="nn_project nn_za"
