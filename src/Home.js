@@ -32,15 +32,6 @@ class Home extends Component {
 
             <Project
               date="2023"
-              desc="Curated list of side projects that became BIG 🚀"
-              pClass="nn_project nn_bsp"
-              title="Big Side Projects"
-              url="https://bigsideprojects.com/"
-              status="Active"
-            />
-
-            <Project
-              date="2023"
               desc="Flag Color Codes in HEX, RGB, CMYK, HSL & HSV"
               pClass="nn_project nn_fp"
               title="Flag Palette"
