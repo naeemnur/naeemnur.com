@@ -32,7 +32,7 @@ class Home extends Component {
 
             <Project
               date="2024"
-              desc="PCPartPicker for RC Cars"
+              desc="RC cars part lists and build Logs"
               pClass="nn_project nn_rc"
               title="RCFlex"
               url="https://rcflex.net/"
