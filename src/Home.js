@@ -21,8 +21,8 @@ class Home extends Component {
             <h1>{pageTitle}</h1>
             <p>{pageContent}</p>
             <NavLink className="nn_about-nayme" to="/about/" strict>
-              more about me &rarr;
-            </NavLink>
+            more about me &rarr;
+             </NavLink>
           </div>
         </div>
 
@@ -31,12 +31,31 @@ class Home extends Component {
             <h2>{projectHeading} &not;</h2>
 
             <Project
+              date="2024"
+              desc="PCPartPicker for RC Cars"
+              pClass="nn_project nn_rc"
+              title="RCFlex"
+              url="https://rcflex.net/"
+              status="Active"
+            />
+
+            <Project
+              date="2023"
+              desc="A digital playground of ideas and experiments"
+              pClass="nn_project nn_ms"
+              title="mildspring"
+              url="https://mildspring.com/"
+              status="Active"
+            />
+
+
+            <Project
               date="2023"
               desc="Flag Color Codes in HEX, RGB, CMYK, HSL & HSV"
               pClass="nn_project nn_fp"
               title="Flag Palette"
               url="https://flagpalette.com/"
-              status="Active"
+              status="Sold"
             />
 
           <Project
@@ -45,7 +64,7 @@ class Home extends Component {
               pClass="nn_project nn_ng"
               title="nGlot"
               url="https://nglot.com/"
-              status="Active"
+              status="Dead"
             />
 
             <Project
@@ -81,7 +100,7 @@ class Home extends Component {
               pClass="nn_project nn_sh"
               title="Symbol Hunt"
               url="https://symbolhunt.com"
-              status="Active"
+              status="Sold"
             />
 
             <Project
