@@ -44,7 +44,7 @@ class Home extends Component {
               desc="A digital playground of ideas and experiments"
               pClass="nn_project nn_ms"
               title="mildspring"
-              url="https://mildspring.com/"
+              url="https://mildspring.co/"
               status="Active"
             />
 
