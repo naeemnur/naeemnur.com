@@ -36,7 +36,7 @@ class Home extends Component {
               pClass="nn_project nn_rc"
               title="RCFlex"
               url="https://rcflex.net/"
-              status="Active"
+              status="Live"
             />
 
             <Project
@@ -45,7 +45,7 @@ class Home extends Component {
               pClass="nn_project nn_ms"
               title="mildspring"
               url="https://mildspring.co/"
-              status="Active"
+              status="Live"
             />
 
 
@@ -55,7 +55,7 @@ class Home extends Component {
               pClass="nn_project nn_fp"
               title="Flag Palette"
               url="https://flagpalette.com/"
-              status="Sold"
+              status="Acquired"
             />
 
           <Project
@@ -64,7 +64,7 @@ class Home extends Component {
               pClass="nn_project nn_ng"
               title="nGlot"
               url="https://nglot.com/"
-              status="Dead"
+              status="Shutdown"
             />
 
             <Project
@@ -73,7 +73,7 @@ class Home extends Component {
               pClass="nn_project nn_za"
               title="ZeroAcquire"
               url="https://zeroacquire.com/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -82,7 +82,7 @@ class Home extends Component {
               pClass="nn_project nn_tr"
               title="Tiny Resume"
               url="https://tinyresume.co/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -91,7 +91,7 @@ class Home extends Component {
               pClass="nn_project nn_ib"
               title="InventedBy"
               url="https://inventedby.co"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -100,7 +100,7 @@ class Home extends Component {
               pClass="nn_project nn_sh"
               title="Symbol Hunt"
               url="https://symbolhunt.com"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -110,7 +110,7 @@ class Home extends Component {
               pClass="nn_project nn_ptrail"
               title="PolicyTrail"
               url="https://policytrail.com/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -120,7 +120,7 @@ class Home extends Component {
               pClass="nn_project nn_iybxyz"
               title="If You Bought XYZ"
               url="https://ifyoubought.xyz/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -130,7 +130,7 @@ class Home extends Component {
               pClass="nn_project nn_techrewind"
               title="TechRewind"
               url="https://techrewind.co/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -160,7 +160,7 @@ class Home extends Component {
               pClass="nn_project nn_urepublic"
               title="Unicorn Republic"
               url="https://unicornrepublic.co/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -190,7 +190,7 @@ class Home extends Component {
               pClass="nn_project nn_gcemetery"
               title="The Google Cemetery"
               url="https://gcemetery.co/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -218,7 +218,7 @@ class Home extends Component {
               pClass="nn_project nn_acquiredby"
               title="AcquiredBy"
               url="https://acquiredby.co/"
-              status="Sold"
+              status="Acquired"
             />
 
             <Project
@@ -245,7 +245,7 @@ class Home extends Component {
               pClass="nn_project nn_cssr dead"
               title="CSSReflex"
               url="https://cssreflex.com"
-              status="Sold"
+              status="Acquired"
             />
           </div>
         </div>
