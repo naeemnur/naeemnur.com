@@ -48,7 +48,6 @@ class Home extends Component {
               status="Live"
             />
 
-
             <Project
               date="2023"
               desc="Flag Color Codes in HEX, RGB, CMYK, HSL & HSV"

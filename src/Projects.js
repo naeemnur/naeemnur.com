@@ -11,9 +11,9 @@ export const Project = ({ date, desc, domain, pClass, title, url, status }) => (
       <span title="Date launched" className="nn_project-date">
         {date}
       </span>
-      {<span title="Status" className="nn_project-status">
+      <span title="Status" className="nn_project-status">
         {status}
-      </span>}
+      </span>
     </div>
   </a>
 );
