@@ -30,6 +30,16 @@ class Home extends Component {
           <div className="nn_featured">
             <h2>{projectHeading} &not;</h2>
 
+
+            <Project
+              date="2024"
+              desc="Minimalist WordPress block themes"
+              pClass="nn_project nn_cssr dead"
+              title="WordPress Themes"
+              url="https://mildthemes.co"
+              status="Live"
+            />
+
             <Project
               date="2024"
               desc="RC cars part lists and build Logs"
